@@ -2,7 +2,7 @@
 JWT Authentication with Express.js and MongoDB
 
 #### Configuration:
-Create .env file in config folder and put 'PORT' and 'MONGO_URI' variables.
+Create .env file in config folder and put 'PORT', 'MONGO_URI' and 'JWT_SECRET' variables.
 
 
 #### Tech Stack:
