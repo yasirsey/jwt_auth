@@ -11,7 +11,8 @@ const userSchema = new mongoose.Schema({
             },
             message: props => `Username must be alphanumeric.`
         },
-        required: [true, 'Username is required.']
+        required: [true, 'Username is required.'],
+        unique: [true, 'Username must be unique.']
     },
     password: {
         type: String,
